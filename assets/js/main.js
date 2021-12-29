@@ -26,12 +26,23 @@
     }
 
     // show or hide the back-top-top button
-    const backToTop = document.querySelector(".back-to-top");
+    // const backToTop = document.querySelector(".back-to-top");
+    // if (
+    //   document.body.scrollTop > 50 ||
+    //   document.documentElement.scrollTop > 50
+    // ) {
+    //   backToTop.style.display = "flex";
+    // } else {
+    //   backToTop.style.display = "none";
+    // }
+
+    // show or hide the back-top-top button
+    const backToTop = document.querySelector(".wa-float");
     if (
-      document.body.scrollTop > 50 ||
-      document.documentElement.scrollTop > 50
+      document.body.scrollTop > 100 ||
+      document.documentElement.scrollTop > 100
     ) {
-      backToTop.style.display = "flex";
+      backToTop.style.display = "inline-block";
     } else {
       backToTop.style.display = "none";
     }

@@ -875,12 +875,31 @@ p {
   width: 35px;
 }
 
+.single-services .services-icon i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 34px;
+  color: #fff;
+}
+
 .single-services .services-content .services-title a {
   font-size: 19px;
   font-weight: 700;
   color: #2e2e2e;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+}
+
+.layanan-kanwil .single-services {
+  padding: 8px 20px 20px;
+  min-height: 200px;
+}
+
+.layanan-kanwil .single-services .services-content h4 {
+  font-size: 15px !important;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1541,6 +1560,26 @@ p {
 .back-to-top:hover {
   color: #fff;
   background-position: right center;
+}
+
+.wa-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  display: none;
+}
+
+.my-float {
+  margin-top: 14px;
 }
 
 /* ======================
