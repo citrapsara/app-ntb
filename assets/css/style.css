@@ -186,6 +186,10 @@ p {
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  .banner.main-btn {
+    width: 45%;
+  }
 }
 
 /*===== All Section Title Style =====*/
@@ -669,6 +673,16 @@ p {
   color: #fe7a7b;
 }
 
+@media (max-width: 767px) {
+  .navbar-brand {
+    width: 50%;
+  }
+
+  .navbar-brand img {
+    width: 80% !important;
+  }
+}
+
 /*===== HEADER HERO =====*/
 .header-hero {
   position: relative;
@@ -826,7 +840,8 @@ p {
 /*===========================
   SERVICES css 
 ===========================*/
-.layanan-pusat a {
+.layanan-pusat a,
+.layanan-kanwil a {
   width: 100%;
 }
 
