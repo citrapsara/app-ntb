@@ -1,0 +1,6 @@
+_ARSIP_/
+amerta/
+ampenan/
+api/
+pelungguh/
+phpmyadmin/
