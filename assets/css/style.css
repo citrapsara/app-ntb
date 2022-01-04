@@ -688,6 +688,7 @@ p {
   position: relative;
   z-index: 5;
   background-position: bottom center;
+  padding-top: 100px;
 }
 
 #particles-1 {
@@ -704,6 +705,10 @@ p {
 }
 
 @media (max-width: 767px) {
+  .header-hero {
+    padding-top: 0;
+  }
+
   .header-hero-content {
     padding: 130px 0 0px;
   }
@@ -780,6 +785,12 @@ p {
 @media (max-width: 767px) {
   .header-hero-image {
     padding-top: 30px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .header-hero {
+    padding-top: 100px;
   }
 }
 
